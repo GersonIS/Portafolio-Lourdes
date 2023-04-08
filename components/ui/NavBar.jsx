@@ -2,7 +2,7 @@ import { AppBar, Box, Button, IconButton, Toolbar, Typography } from "@mui/mater
 import ListOutlinedIcon from '@mui/icons-material/ListOutlined';
 import Link from 'next/link';
 
-const Navbar = ({ navbarItems }) => {
+export const Navbar = ({ navbarItems }) => {
     return (
         //Preguntar sobre la elevacion
         <AppBar position="sticky" sx={{ backgroundColor: "transparent" }}>
@@ -27,5 +27,3 @@ const Navbar = ({ navbarItems }) => {
         </AppBar>
     )
 }
-
-export default Navbar

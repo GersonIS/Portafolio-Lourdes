@@ -1,7 +1,7 @@
 import { Box, Drawer, List, ListItemButton, ListItemIcon, ListItemText, Typography } from "@mui/material"
 import Link from 'next/link';
 
-const SideBar = ({ navbarItems }) => {
+export const SideBar = ({ navbarItems }) => {
     return (
         <Drawer anchor="left" open={false} onClose={() => console.log("cerrando")}>
             <Box sx={{ width: 250 }}>
@@ -26,5 +26,3 @@ const SideBar = ({ navbarItems }) => {
         </Drawer>
     )
 }
-
-export default SideBar
