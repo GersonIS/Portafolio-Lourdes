@@ -1,10 +1,10 @@
 import { Box } from "@mui/material"
 import Head from "next/head"
-import Navbar from "../ui/Navbar"
+import { Navbar } from "../ui/Navbar"
 import CottageOutlinedIcon from '@mui/icons-material/CottageOutlined';
 import WorkspacePremiumOutlinedIcon from '@mui/icons-material/WorkspacePremiumOutlined';
 import ConnectWithoutContactOutlinedIcon from '@mui/icons-material/ConnectWithoutContactOutlined';
-import SideBar from "../ui/SideBar";
+import { SideBar } from "../ui/SideBar";
 
 const navbarItems = [
     {
