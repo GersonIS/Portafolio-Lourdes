@@ -23,7 +23,7 @@ const contacto = () => {
                         height={350}
                     />
                 </Grid>
-                <Grid item xs={12} md={6} sx={{borderRadius: 5, boxShadow: 5}}>
+                <Grid item xs={12} md={6} sx={{ borderRadius: 5, boxShadow: 5 }}>
                     <Box
                         component="form"
                         paddingBottom={3}
@@ -58,16 +58,24 @@ const contacto = () => {
                 <Grid item xs={12} display="flex" justifyContent="center" marginTop={5}>
                     <Box sx={{ backgroundColor: "white", color: "black", width: "150px", height: "50px", borderRadius: "10px", padding: "12px", display: "flex", justifyContent: "space-between" }}>
                         <Box>
-                            <FacebookIcon />
+                            <Link style={{ textDecoration: 'none', color: "inherit" }} href="https://www.facebook.com/lourdes.rodriguez.98229241">
+                                <FacebookIcon />
+                            </Link>
                         </Box>
                         <Box>
-                            <InstagramIcon />
+                            <Link style={{ textDecoration: 'none', color: "inherit" }} href="https://www.instagram.com/luivodelacruzrodriguez/">
+                                <InstagramIcon />
+                            </Link>
                         </Box>
                         <Box>
-                            <TelegramIcon />
+                            <Link style={{ textDecoration: 'none', color: "inherit" }} href="https://www.facebook.com/lourdes.rodriguez.98229241">
+                                <TelegramIcon />
+                            </Link>
                         </Box>
                         <Box>
-                            <WhatsAppIcon />
+                            <Link style={{ textDecoration: 'none', color: "inherit" }} href="https://www.facebook.com/lourdes.rodriguez.98229241">
+                                <WhatsAppIcon />
+                            </Link>
                         </Box>
                     </Box>
                 </Grid>
