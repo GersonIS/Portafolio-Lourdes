@@ -5,7 +5,7 @@ import Link from 'next/link';
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import TelegramIcon from '@mui/icons-material/Telegram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const contacto = () => {
@@ -58,22 +58,22 @@ const contacto = () => {
                 <Grid item xs={12} display="flex" justifyContent="center" marginTop={5}>
                     <Box sx={{ backgroundColor: "white", color: "black", width: "150px", height: "50px", borderRadius: "10px", padding: "12px", display: "flex", justifyContent: "space-between" }}>
                         <Box>
-                            <Link style={{ textDecoration: 'none', color: "inherit" }} href="https://www.facebook.com/lourdes.rodriguez.98229241">
+                            <Link style={{ textDecoration: 'none', color: "inherit" }} target="_blank" href="https://www.facebook.com/lourdes.rodriguez.98229241">
                                 <FacebookIcon />
                             </Link>
                         </Box>
                         <Box>
-                            <Link style={{ textDecoration: 'none', color: "inherit" }} href="https://www.instagram.com/luivodelacruzrodriguez/">
+                            <Link style={{ textDecoration: 'none', color: "inherit" }} target="_blank" href="https://www.instagram.com/luivodelacruzrodriguez/">
                                 <InstagramIcon />
                             </Link>
                         </Box>
                         <Box>
-                            <Link style={{ textDecoration: 'none', color: "inherit" }} href="https://www.facebook.com/lourdes.rodriguez.98229241">
-                                <TelegramIcon />
+                            <Link style={{ textDecoration: 'none', color: "inherit" }} target="_blank" href="https://www.linkedin.com/in/lourdes-ivonne-de-la-cruz-rodriguez-148197263/">
+                                <LinkedInIcon />
                             </Link>
                         </Box>
                         <Box>
-                            <Link style={{ textDecoration: 'none', color: "inherit" }} href="https://www.facebook.com/lourdes.rodriguez.98229241">
+                            <Link style={{ textDecoration: 'none', color: "inherit" }} target="_blank" href="https://api.whatsapp.com/send?phone=51962489075">
                                 <WhatsAppIcon />
                             </Link>
                         </Box>
